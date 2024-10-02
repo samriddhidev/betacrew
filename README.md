@@ -70,13 +70,13 @@ Ensure they are all in the same directory.
 
 First, you need to start the server (which simulates the exchange server). To do that, run:
 
-````bash
+
 node main.js
 
 ### 4. Run the Client
 Now, in a separate terminal window, run the client:
 
-```bash
+bash
 node client.js
 
 ### 5. View the Output
@@ -123,7 +123,7 @@ Here’s an example of what your `output.json` might look like:
     "sequence": 5
   }
 ]
-
+````
 ### 6. Error Handling
 If any packet sequences are missing:
 - The client will detect the missing sequence numbers.
